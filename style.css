@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #540775;
+    color: #4fbd00;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #00857e;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+img{
+    height: 500px;
+    width: 1500px;
+    
+}
+
+h1, h2 {
+    color: #19000e;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+    background: #060b94;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+form label {
+    display: block;
+    margin: 15px 0 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #0722383c;
+    border-radius: 4px;
+}
+
+form button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #072e81;
+    color: #9d8403;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #139a2772;
+}
+
+footer {
+    background-color: #333;
+    color: #0b628d;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Specific styles for the register page */
+body.register-page {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+form {
+    background: rgba(13, 186, 100, 0.8); /* Semi-transparent background */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
